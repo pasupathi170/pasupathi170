@@ -23,7 +23,9 @@
 ###
 
 <div data-importer="socials" align="center">
-  <a href="www.linkedin.com/in/pasupathi-s-23b57a2b6" target="_blank">
+  <a href="https://www.linkedin.com/in/pasupathi-s-23b57a2b6">
+  LinkedIn
+</a>
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="30" alt="linkedin logo"  />
   </a>
   <a href="pasupathibca77@gmail.com" target="_blank">
