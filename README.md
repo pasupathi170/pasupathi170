@@ -1,92 +1,65 @@
-```md
-<div align="center">
+<br clear="both">
 
-<img src="./.github/profile-glow.svg" width="100%" />
+<h2 data-importer="text" align="center">Hi 👋 I'm Pasupathi, a BCA graduate and aspiring Full Stack Developer.</h2>
 
-<h1>Hi 👋 I'm Pasupathi</h1>
+###
 
-<p>
-BCA Graduate • Aspiring Full Stack Developer
-</p>
+<div data-importer="techs" align="center">
+  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="60" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"  />
 
-<p>
-Building modern web applications and learning something new every day 🚀
-</p>
-
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="nodejs logo"  />
 </div>
 
----
+###
 
-<div align="center">
-
-### ⚡ Tech Stack
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,tailwind,git,github" />
-
-</div>
-
----
-
-<div align="center">
-
-### 🌐 Connect With Me
-
-<a href="https://www.linkedin.com/in/pasupathi-s-23b57a2b6">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<div data-importer="socials" align="center">
+ <a href="https://www.linkedin.com/in/pasupathi-s-23b57a2b6" target="_blank">
+  <img
+    src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat"
+    height="30"
+    alt="linkedin logo"
+  />
 </a>
-
-<a href="mailto:pasupathibca77@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+ <a href="mailto:pasupathibca77@gmail.com">
+  <img
+    src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=flat"
+    height="30"
+    alt="gmail logo"
+  />
 </a>
-
-<a href="https://www.instagram.com/pasupathi077/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
+  <a href="https://www.instagram.com/pasupathi077/?utm_source=ig_web_button_share_sheet" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=flat" height="30" alt="instagram logo"  />
+  </a>
 </div>
 
----
+###
 
-## 👨‍💻 About Me
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pasupathi170/pasupathi170/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pasupathi170/pasupathi170/pacman-output/pacman-contribution-graph.svg?game=pacman">
 
-✨ BCA graduate passionate about web development  
-💻 Currently learning JavaScript, React, Next.js & MERN Stack  
-🎯 Goal: Become a skilled Full Stack Developer  
-🚀 Building real-world projects to improve my development skills  
+###
 
----
+<h2 data-importer="text" align="left">✨ BCA graduate passionate about web development<br>💻 Currently learning JavaScript, React, Next.js & MERN Stack<br>🎯 Goal: Become a skilled Full Stack Developer<br>🚀 Building projects to improve my development skills</h2>
 
-## 🚀 Featured Projects
+###
 
-### 🔥 FIRE Focus
-Focus timer web application built with modern web technologies.
-
-**Tech:** TypeScript • React • Next.js • Tailwind CSS
-
-### 🎤 SpeakUp AI
-AI-powered English communication and interview practice platform.
-
-**Tech:** React • Node.js • Express • MongoDB • AI API
-
----
-
-<div align="center">
-
-### 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=pasupathi170&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pasupathi170&theme=tokyonight&hide_border=true" />
-
+<div data-importer="border">
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=wave&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
 </div>
 
----
+###
+Hey, hey, hey! You also generated workflow files in .github/workflows .
+Don't forget to copy those too — your README won't work without them!
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=wave&height=100&section=footer&theme=cobalt" />
-
-</div>
-```
+A white circle with a dark file icon outlined in the center
+Profile Readme Generator
