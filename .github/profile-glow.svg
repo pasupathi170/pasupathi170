@@ -1,44 +1,198 @@
-```svg
-<svg width="100%" height="140" viewBox="0 0 1000 140"
+<svg width="100%" height="180" viewBox="0 0 1000 180"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Cyan → Purple → Pink -->
+    <linearGradient id="neonBorder"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
       <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#ff2bd6"/>
+
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <!-- Dark background -->
+    <linearGradient id="background"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#080b12"/>
+      <stop offset="100%" stop-color="#05070b"/>
+
+    </linearGradient>
+
+    <!-- Neon glow -->
+    <filter id="glow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+
+      <feGaussianBlur
+          stdDeviation="7"
+          result="blur"/>
+
       <feMerge>
+
         <feMergeNode in="blur"/>
+
         <feMergeNode in="SourceGraphic"/>
+
       </feMerge>
+
     </filter>
 
-    <linearGradient id="inside" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#05070b"/>
-    </linearGradient>
+    <!-- Stronger glow -->
+    <filter id="strongGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+
+      <feGaussianBlur
+          stdDeviation="12"
+          result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
   </defs>
 
-  <!-- Glow -->
-  <rect x="3" y="3" width="994" height="134" rx="18"
-        fill="none"
-        stroke="url(#border)"
-        stroke-width="5"
-        opacity="0.85"
-        filter="url(#glow)"/>
 
-  <!-- Main border -->
-  <rect x="3" y="3" width="994" height="134" rx="18"
-        fill="url(#inside)"
-        stroke="url(#border)"
-        stroke-width="1.5"/>
+  <!-- ================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================= -->
 
-  <!-- Side glow accents -->
-  <circle cx="8" cy="70" r="4" fill="#00f0ff" filter="url(#glow)"/>
-  <circle cx="992" cy="70" r="4" fill="#ff2bd6" filter="url(#glow)"/>
+  <rect
+      x="8"
+      y="8"
+      width="984"
+      height="164"
+      rx="22"
+      fill="url(#background)"
+  />
+
+
+  <!-- ================================= -->
+  <!-- OUTER NEON GLOW -->
+  <!-- ================================= -->
+
+  <rect
+      x="8"
+      y="8"
+      width="984"
+      height="164"
+      rx="22"
+      fill="none"
+      stroke="url(#neonBorder)"
+      stroke-width="5"
+      opacity="0.9"
+      filter="url(#strongGlow)"
+  />
+
+
+  <!-- ================================= -->
+  <!-- MAIN NEON BORDER -->
+  <!-- ================================= -->
+
+  <rect
+      x="8"
+      y="8"
+      width="984"
+      height="164"
+      rx="22"
+      fill="none"
+      stroke="url(#neonBorder)"
+      stroke-width="2"
+      filter="url(#glow)"
+  />
+
+
+  <!-- ================================= -->
+  <!-- LEFT CYAN GLOW -->
+  <!-- ================================= -->
+
+  <circle
+      cx="10"
+      cy="90"
+      r="5"
+      fill="#00f0ff"
+      filter="url(#strongGlow)"
+  />
+
+  <circle
+      cx="10"
+      cy="90"
+      r="2.5"
+      fill="#ffffff"
+  />
+
+
+  <!-- ================================= -->
+  <!-- RIGHT PINK GLOW -->
+  <!-- ================================= -->
+
+  <circle
+      cx="990"
+      cy="90"
+      r="5"
+      fill="#ff2bd6"
+      filter="url(#strongGlow)"
+  />
+
+  <circle
+      cx="990"
+      cy="90"
+      r="2.5"
+      fill="#ffffff"
+  />
+
+
+  <!-- ================================= -->
+  <!-- TOP LIGHT -->
+  <!-- ================================= -->
+
+  <line
+      x1="80"
+      y1="9"
+      x2="300"
+      y2="9"
+      stroke="#00f0ff"
+      stroke-width="2"
+      opacity="0.8"
+      filter="url(#glow)"
+  />
+
+
+  <!-- ================================= -->
+  <!-- BOTTOM LIGHT -->
+  <!-- ================================= -->
+
+  <line
+      x1="700"
+      y1="171"
+      x2="920"
+      y2="171"
+      stroke="#ff2bd6"
+      stroke-width="2"
+      opacity="0.8"
+      filter="url(#glow)"
+  />
+
+
 </svg>
-```
